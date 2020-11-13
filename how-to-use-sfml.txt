@@ -1,0 +1,24 @@
+STEP 1:
+
+Install sfml:
+sudo apt-get install libsfml-dev
+
+STEP 2:
+
+write sfml app, lets say 'main.cpp'
+
+STEP 3;
+
+compile it:
+g++ -c main.cpp
+
+STEP 4:
+
+Then link the compiled file to the SFML libraries in order to get the final executable:
+g++ main.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system
+
+
+STEP 5:
+
+run it:
+./sfml-app
